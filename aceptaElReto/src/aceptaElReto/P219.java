@@ -12,6 +12,7 @@ public class P219 {
 			int decimos = sc.nextInt();
 			int[] numeros = new int[decimos];
 			int s = 0;
+			
 			for (int j = 0; j < numeros.length; j++) {
 				numeros[j] = sc.nextInt();
 			}
