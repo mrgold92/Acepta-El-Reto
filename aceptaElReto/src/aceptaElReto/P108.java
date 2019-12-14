@@ -75,14 +75,12 @@ public class P108 {
 					}
 				}
 
-				
-
 				if (empateMaximo > 1) {
 					System.out.print("EMPATE#");
 				} else {
 					System.out.print(tipos[indiceMaximo]);
 				}
-				
+
 				if (empateMinimo > 1) {
 					System.out.print("EMPATE#");
 				} else {
@@ -105,18 +103,6 @@ public class P108 {
 
 			}
 
-		}
-	}
-
-	public static void medias(double desayunos, double comidas, double meriendas, double cenas, double copas, int i,
-			int contadordia) {
-		double mediaComida = comidas / i;
-		double mediaDia = (desayunos + comidas + meriendas + cenas + copas) / 5;
-
-		if (mediaComida > mediaDia) {
-			System.out.print("SI\n");
-		} else {
-			System.out.print("NO\n");
 		}
 	}
 
