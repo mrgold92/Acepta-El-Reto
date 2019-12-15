@@ -12,9 +12,10 @@ public class P120 {
 			if (lado != 0) {
 				int inicial = in.nextInt();
 
-				int constanteMágica = ((lado * lado + inicial - 1 + inicial) / 2) * lado;
-				System.out.println(constanteMágica);
+				int constanteMagica = ((lado * lado + inicial - 1 + inicial) / 2) * lado;
+				System.out.println(constanteMagica);
 			}
 		} while (lado != 0);
+		in.close();
 	}
 }

@@ -74,5 +74,6 @@ public class P405 {
 			System.out.println("");
 
 		}
+		sc.close();
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - P100",
+      "request": "launch",
+      "mainClass": "aceptaElReto.P100",
+      "projectName": "aceptaElReto"
+    }
+  ]
+}

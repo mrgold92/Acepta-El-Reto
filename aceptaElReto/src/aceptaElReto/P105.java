@@ -47,6 +47,6 @@ public class P105 {
 			}
 
 		}
-
+		sc.close();
 	}
 }

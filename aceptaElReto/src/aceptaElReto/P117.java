@@ -14,6 +14,6 @@ public class P117 {
 			nombre = s.next();
 			System.out.println("Hola, " + nombre + ".");
 		}
-
+		s.close();
 	}
 }

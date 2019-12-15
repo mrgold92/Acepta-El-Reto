@@ -27,5 +27,6 @@ public class P191 {
 			System.out.println(total);
 
 		}
+		sc.close();
 	}
 }

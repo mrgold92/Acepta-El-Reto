@@ -23,5 +23,6 @@ public class P148 {
 				System.out.println(minutoshoras);
 			}
 		} while (!all.equals("00:00"));
+		sc.close();
 	}
 }

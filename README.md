@@ -21,3 +21,4 @@ Pongo a disposición del que quiera, mis soluciones a algunos ejercicios de [Ace
 | 480 - [¿Cuántas pido?](https://www.aceptaelreto.com/problem/statement.php?id=480) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P480.java) |
 
 Espero que os sirva de ayuda.
+

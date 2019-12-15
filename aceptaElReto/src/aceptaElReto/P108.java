@@ -104,6 +104,7 @@ public class P108 {
 			}
 
 		}
+		sc.close();
 	}
-
+	
 }
