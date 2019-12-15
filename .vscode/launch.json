@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - P217",
+      "request": "launch",
+      "mainClass": "aceptaElReto.P217",
+      "projectName": "aceptaElReto"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - P100",
       "request": "launch",
       "mainClass": "aceptaElReto.P100",
