@@ -10,7 +10,7 @@ public class P151 {
 		int numero = sc.nextInt();
 
 		while (numero != 0) {
-			boolean si = true;
+			boolean nocumple = false;
 			int[][] numeros = new int[numero][numero];
 
 			for (int i = 0; i < numero; i++) {
@@ -23,35 +23,21 @@ public class P151 {
 			// comprobamos que la diagonal sea 1
 			for (int i = 0; i < numero; i++) {
 				for (int j = 0; j < numero; j++) {
-					if (numeros[i][i] != 1) {
-						si = false;
-						break;
-					}
-				}
-			}
 
-			// comprobamos que todos los demás sean 0
-			for (int i = 0; i < numero; i++) {
-				for (int j = 0; j < i; j++) {
-					if (numeros[i][j] != 0) {
-						si = false;
-						break;
-					}
-				}
-			}
-
-			// comprobamos la diagonal empezando por la derecha
-			if (si) {
-				for (int i = 0; i < numero; i++) {
-					for (int j = numero - 1; j > i; j--) {
+					if (i == j) {
+						if (numeros[i][i] != 1) {
+							nocumple = true;
+						}
+					}else {
 						if (numeros[i][j] != 0) {
-							si = false;
-							break;
+							nocumple = true;
 						}
 					}
+
 				}
 			}
-			System.out.println(si ? "SI" : "NO");
+
+			System.out.println(nocumple ? "NO" : "SI");
 			numero = sc.nextInt();
 		}
 
