@@ -7,6 +7,7 @@ Pongo a disposición del que quiera, mis soluciones a algunos ejercicios de [Ace
 | Problema                                                     | Veredicto |                           Solución                           |
 | ------------------------------------------------------------ | :-------: | :----------------------------------------------------------: |
 | 100 - [Constante de Kaprekar](https://www.aceptaelreto.com/problem/statement.php?id=100) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P100.java) |
+| 102 - [Encriptación de mensajes](https://www.aceptaelreto.com/problem/statement.php?id=102) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P102.java) |
 | 105 - [Ventas](https://www.aceptaelreto.com/problem/statement.php?id=105) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P105.java) |
 | 108 - [De nuevo en el bar de Javier](https://www.aceptaelreto.com/problem/statement.php?id=108) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P108.java) |
 | 117 - [La fiesta aburrida](https://www.aceptaelreto.com/problem/statement.php?id=117) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P117.java) |
