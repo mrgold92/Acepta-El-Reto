@@ -1,3 +1,6 @@
+package aceptaElReto;
+
+
 import java.util.Scanner;
 
 public class P178 {
