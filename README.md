@@ -26,6 +26,9 @@ Pongo a disposición del que quiera, mis soluciones a algunos ejercicios de [Ace
 | 403 - [En campos de fútbol](https://www.aceptaelreto.com/problem/statement.php?id=403) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P403.java) |
 | 405 - [Imprimiendo páginas sueltas](https://www.aceptaelreto.com/problem/statement.php?id=405) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P405.java) |
 | 480 - [¿Cuántas pido?](https://www.aceptaelreto.com/problem/statement.php?id=480) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P480.java) |
+| 532 - [Reduciendo envases](https://www.aceptaelreto.com/problem/statement.php?id=532) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P532.java) |
+| 533 - [La botella ganadora](https://www.aceptaelreto.com/problem/statement.php?id=533) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P533.java) |
+| 536 - [Huerto ecológico](https://www.aceptaelreto.com/problem/statement.php?id=536) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P536.java) |
 
 Espero que os sirva de ayuda.
 
