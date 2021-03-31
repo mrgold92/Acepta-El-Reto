@@ -22,9 +22,8 @@ public class P123 {
 			ArrayList<String> c = verbo.conjugar();
 
 			for (int i = 0; i < p.length; i++) {
-				String per = p[i];
 
-				System.out.println(per + verbo.getVerbo() + c.get(i));
+				System.out.println(p[i] + verbo.getVerbo() + c.get(i));
 
 			}
 
