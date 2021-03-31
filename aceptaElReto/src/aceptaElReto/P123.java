@@ -12,16 +12,22 @@ public class P123 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		String[] p = { "yo ", "tu ", "el ", "nosotros ", "vosotros ", "ellos " };
 
 		String[] verb = sc.nextLine().split(" ");
 
 		while (!verb[1].toUpperCase().equals("T")) {
+
 			Verbo verbo = new Verbo(verb[0], verb[1]);
 			ArrayList<String> c = verbo.conjugar();
 
-			for (String v : c) {
-				System.out.println(v);
+			for (int i = 0; i < p.length; i++) {
+				String per = p[i];
+
+				System.out.println(per + verbo.getVerbo() + c.get(i));
+
 			}
+
 			verb = sc.nextLine().split(" ");
 
 		}
@@ -69,34 +75,33 @@ class Verbo {
 		switch (this.tiempo.toUpperCase()) {
 		case "A":
 
+			verbosList.add("o");
+
 			if (this.terminacion.equals("ar")) {
-				verbosList.add("yo " + this.verbo + "o");
-				verbosList.add("tu " + this.verbo + "as");
-				verbosList.add("el " + this.verbo + "a");
-				verbosList.add("nosotros " + this.verbo + "amos");
-				verbosList.add("vosotros " + this.verbo + "ais");
-				verbosList.add("ellos " + this.verbo + "an");
+
+				verbosList.add("as");
+				verbosList.add("a");
+				verbosList.add("amos");
+				verbosList.add("ais");
+				verbosList.add("an");
 
 			}
 
 			if (this.terminacion.equals("er")) {
-				verbosList.add("yo " + this.verbo + "o");
-				verbosList.add("tu " + this.verbo + "es");
-				verbosList.add("el " + this.verbo + "e");
-				verbosList.add("nosotros " + this.verbo + "emos");
-				verbosList.add("vosotros " + this.verbo + "eis");
-				verbosList.add("ellos " + this.verbo + "en");
+				verbosList.add("es");
+				verbosList.add("e");
+				verbosList.add("emos");
+				verbosList.add("eis");
+				verbosList.add("en");
 
 			}
 
 			if (this.terminacion.equals("ir")) {
-
-				verbosList.add("yo " + this.verbo + "o");
-				verbosList.add("tu " + this.verbo + "es");
-				verbosList.add("el " + this.verbo + "e");
-				verbosList.add("nosotros " + this.verbo + "imos");
-				verbosList.add("vosotros " + this.verbo + "is");
-				verbosList.add("ellos " + this.verbo + "en");
+				verbosList.add("es");
+				verbosList.add("e");
+				verbosList.add("imos");
+				verbosList.add("is");
+				verbosList.add("en");
 			}
 
 			break;
@@ -104,51 +109,51 @@ class Verbo {
 		case "P":
 
 			if (this.terminacion.equals("er") || this.terminacion.equals("ir")) {
-				verbosList.add("yo " + this.verbo + "i");
-				verbosList.add("tu " + this.verbo + "iste");
-				verbosList.add("el " + this.verbo + "io");
-				verbosList.add("nosotros " + this.verbo + "imos");
-				verbosList.add("vosotros " + this.verbo + "isteis");
-				verbosList.add("ellos " + this.verbo + "ieron");
+				verbosList.add("i");
+				verbosList.add("iste");
+				verbosList.add("io");
+				verbosList.add("imos");
+				verbosList.add("isteis");
+				verbosList.add("ieron");
 			} else {
-				verbosList.add("yo " + this.verbo + "e");
-				verbosList.add("tu " + this.verbo + "aste");
-				verbosList.add("el " + this.verbo + "o");
-				verbosList.add("nosotros " + this.verbo + "amos");
-				verbosList.add("vosotros " + this.verbo + "asteis");
-				verbosList.add("ellos " + this.verbo + "aron");
+				verbosList.add("e");
+				verbosList.add("aste");
+				verbosList.add("o");
+				verbosList.add("amos");
+				verbosList.add("asteis");
+				verbosList.add("aron");
 			}
 
 			break;
 
 		case "F":
 			if (this.terminacion.equals("ar")) {
-				verbosList.add("yo " + this.verbo + "are");
-				verbosList.add("tu " + this.verbo + "aras");
-				verbosList.add("el " + this.verbo + "ara");
-				verbosList.add("nosotros " + this.verbo + "aremos");
-				verbosList.add("vosotros " + this.verbo + "areis");
-				verbosList.add("ellos " + this.verbo + "aran");
+				verbosList.add("are");
+				verbosList.add("aras");
+				verbosList.add("ara");
+				verbosList.add("aremos");
+				verbosList.add("areis");
+				verbosList.add("aran");
 
 			}
 
 			if (this.terminacion.equals("er")) {
-				verbosList.add("yo " + this.verbo + "ere");
-				verbosList.add("tu " + this.verbo + "eras");
-				verbosList.add("el " + this.verbo + "era");
-				verbosList.add("nosotros " + this.verbo + "eremos");
-				verbosList.add("vosotros " + this.verbo + "ereis");
-				verbosList.add("ellos " + this.verbo + "eran");
+				verbosList.add("ere");
+				verbosList.add("eras");
+				verbosList.add("era");
+				verbosList.add("eremos");
+				verbosList.add("ereis");
+				verbosList.add("eran");
 
 			}
 
 			if (this.terminacion.equals("ir")) {
-				verbosList.add("yo " + this.verbo + "ire");
-				verbosList.add("tu " + this.verbo + "iras");
-				verbosList.add("el " + this.verbo + "ira");
-				verbosList.add("nosotros " + this.verbo + "iremos");
-				verbosList.add("vosotros " + this.verbo + "ireis");
-				verbosList.add("ellos " + this.verbo + "iran");
+				verbosList.add("ire");
+				verbosList.add("iras");
+				verbosList.add("ira");
+				verbosList.add("iremos");
+				verbosList.add("ireis");
+				verbosList.add("iran");
 
 			}
 
