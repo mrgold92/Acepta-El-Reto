@@ -1,7 +1,7 @@
 package aceptaElReto;
 
 /**
- * Cï¿½digo inspirado en el usuario MiYazJE.
+ * Código inspirado en el usuario MiYazJE.
  * @see <a href="https://github.com/MiYazJE/Acepta-el-reto/blob/master/p100.java">MiYazJE</a>
  */
 import java.util.Scanner;
