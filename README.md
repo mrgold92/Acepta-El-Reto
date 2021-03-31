@@ -12,6 +12,7 @@ Pongo a disposición del que quiera, mis soluciones a algunos ejercicios de [Ace
 | 108 - [De nuevo en el bar de Javier](https://www.aceptaelreto.com/problem/statement.php?id=108) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P108.java) |
 | 117 - [La fiesta aburrida](https://www.aceptaelreto.com/problem/statement.php?id=117) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P117.java) |
 | 120 - [Constante mágica](https://www.aceptaelreto.com/problem/statement.php?id=120) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P120.java) |
+| 123 - [Conjugar verbos](https://www.aceptaelreto.com/problem/statement.php?id=123) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P123.java) |
 | 140 - [Suma de dígitos](https://www.aceptaelreto.com/problem/statement.php?id=140) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P140.java) |
 | 148 - [Nochevieja](https://www.aceptaelreto.com/problem/statement.php?id=148) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P148.java) |
 | 151 - [¿Es matriz identidad?](https://www.aceptaelreto.com/problem/statement.php?id=151) |    AC     | [Enlace](https://github.com/mrgold92/Acepta-El-Reto/blob/master/aceptaElReto/src/aceptaElReto/P151.java) |
