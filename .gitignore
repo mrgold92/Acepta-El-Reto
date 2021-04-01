@@ -2,5 +2,7 @@
 /.vscode
 /.vscode/launch.json
 aceptaElReto/.idea/**
-aceptaElReto/bin/**
 aceptaElReto/aceptaElReto.iml
+aceptaElReto/bin/
+aceptaElReto/.project
+*.class
