@@ -2,4 +2,5 @@
 /.vscode
 /.vscode/launch.json
 aceptaElReto/.idea/**
-aceptaElReto/bin/
+aceptaElReto/bin/**
+aceptaElReto/aceptaElReto.iml
